@@ -19,9 +19,6 @@ apt install gnome-software gnome-software-plugin-flatpak -y
 apt install fonts-inter-variable -y
 # Font cache
 fc-cache -vf
-## Drivers
-# firmware-linux, misc (nonfree) and atheros
-apt install firmware-linux firmware-misc-nonfree firmware-atheros -y
 # Nvidia driver
 apt install nvidia-driver -y
 ## Flatpaks
